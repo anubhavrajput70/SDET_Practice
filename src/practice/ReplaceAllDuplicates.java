@@ -2,6 +2,8 @@ package practice;
 
 import java.util.HashMap;
 import java.util.Map;
+//- Input: "Automation"
+//- Output: "2u22m22i2n"
 
 public class ReplaceAllDuplicates {
 
