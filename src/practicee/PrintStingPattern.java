@@ -10,7 +10,7 @@ public class PrintStingPattern {
 	public static void printPattern(String a) {
 		String result = "";
 
-		for (int i = 0; i < a.length(); ) {
+		for (int i = 0; i < a.length();) {
 			char s = a.charAt(i++); // get the character
 			String num = "";
 
