@@ -13,10 +13,7 @@ public class NthLargest {
 		int n = 3;
 		System.out.println(n+"th largest element is: "+nthLargest(arr, n));
 		System.out.println(n+"th smallest element is: "+nthSmallest(arr, n));
-		
-
 	}
-
 	public static int nthLargest(int[] nums, int k) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		for (int num : nums) 

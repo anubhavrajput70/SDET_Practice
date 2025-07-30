@@ -1,4 +1,4 @@
-package practicee;
+package slidingWindow;
 
 import java.util.ArrayList;
 import java.util.Collections;

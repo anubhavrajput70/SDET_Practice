@@ -9,7 +9,6 @@ public class RemoveDuplicatesFromArray {
 		// TODO Auto-generated method stub
 		int[] arr= {1,2,3,4,2,2,3,1,1,3,2};
 		removeDuplicates(arr);
-
 	}
 	public static void removeDuplicates(int[] arr)
 	{
