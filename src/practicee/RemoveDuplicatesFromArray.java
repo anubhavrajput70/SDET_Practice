@@ -17,7 +17,8 @@ public class RemoveDuplicatesFromArray {
 		{
 			set.add(arr[i]);
 		}
-		System.out.println(set);
+		for(Integer in:set)
+		System.out.println(in);
 	}
 
 }

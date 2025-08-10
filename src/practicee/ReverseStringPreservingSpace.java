@@ -33,5 +33,10 @@ public class ReverseStringPreservingSpace {
 		}
 		System.out.println(s3);
 	}
+	public static void reversePreserveSpace1(String s)
+	{
+		
+	}
+
 
 }
