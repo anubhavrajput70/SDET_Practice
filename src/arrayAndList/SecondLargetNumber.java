@@ -9,6 +9,10 @@ public class SecondLargetNumber {
 	}
 
 	public static void secondLargest(int[] arr) {
+		if (arr.length < 2) {
+			System.out.println("Second largest not possible");
+			return;
+		}
 		int max1 = Integer.MIN_VALUE;
 		int max2 = Integer.MIN_VALUE;
 		for (int i = 0; i < arr.length; i++) {
@@ -18,6 +22,11 @@ public class SecondLargetNumber {
 			} else if (max1 > arr[i] && max2 < arr[i]) {
 				max2 = arr[i];
 			}
+		}
+		if (max2 == Integer.MIN_VALUE) {
+			System.out.println("No second largest element");
+		} else {
+			System.out.println("Second Largest = " + max2);
 		}
 		System.out.println(max2);
 	}

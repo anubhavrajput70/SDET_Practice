@@ -10,6 +10,10 @@ public class RotateArrayByKPosition {
 	}
 
 	public static void rotateByK(int arr[], int k) {
+		if (arr == null || arr.length <= 1) {
+			return;
+		}
+		k = k % arr.length;
 		for (int i = 0; i < k; i++) {
 			rotateByOne(arr);
 		}

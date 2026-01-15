@@ -9,6 +9,7 @@ public class MoveAllZerosToEnd {
 	}
 
 	public static void moveZeros(int[] arr) {
+		if (arr == null || arr.length == 0) return;
 		int j = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] != 0) {
