@@ -8,9 +8,7 @@ public class CheckUniqueCharacter {
 		// TODO Auto-generated method stub
 		String str = "abcd";
 		checkUnique(str);
-
 	}
-
 	public static void checkUnique(String str) {
 		HashSet<Character> set = new HashSet<>();
 		boolean isDuplicate = false;
@@ -26,5 +24,4 @@ public class CheckUniqueCharacter {
 			System.out.println("All characters are unique");
 		}
 	}
-
 }
