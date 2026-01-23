@@ -6,9 +6,7 @@ public class StringCompression {
 		// TODO Auto-generated method stub
 		String str = "aabcccccaaa";
 		stringCompression(str);
-
 	}
-
 	public static void stringCompression(String str) {
 		String res = "";
 		int count = 1;

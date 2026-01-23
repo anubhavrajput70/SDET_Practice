@@ -1,0 +1,39 @@
+package stringManipulation;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReverseOnlyCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stubAnubhav Rajput
+//		output - ed123cba
+		String str1 = "abcd123de";
+
+		StringBuilder sb = new StringBuilder();
+		List<Integer> integer = new ArrayList<>();
+
+		for (int i = 0; i < str1.length(); i++) {
+			if (!Character.isDigit(str1.charAt(i))) {
+				sb.append(str1.charAt(i));
+			} else {
+				char ch = str1.charAt(i);
+				integer.add(ch - '0');
+				sb.append('_');
+			}
+		}
+		System.out.println(sb);
+		System.out.println(integer);
+		sb.reverse();
+		int temp = 0;
+		for (int i = 0; i < sb.length(); i++) {
+			if (sb.charAt(i) == '_') {
+				sb.setCharAt(i, (char) (integer.get(temp++) + '0'));
+			}
+		}
+
+		System.out.println(sb);
+
+	}
+
+}
