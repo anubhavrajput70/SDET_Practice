@@ -1,5 +1,13 @@
 package arrayAndList;
 
+//Write a Java program to find the intersection of the two arrays, 
+//where the intersection should contain only unique common elements,
+//regardless of how many times they appear in the arrays.
+//input : int[] a = { 1, 2, 2, 1 };
+//      int[] b = { 2, 2 };
+//output: [2]
+
+
 import java.util.HashSet;
 import java.util.Set;
 

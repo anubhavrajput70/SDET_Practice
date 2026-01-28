@@ -1,5 +1,13 @@
 package stringManipulation;
 
+//Write a Java program to check if a string has all unique characters.
+//If any character repeats, print which character is duplicated; 
+//otherwise print that all characters are unique.
+//input : str = "abcd"
+//output: All characters are unique
+//input : str = "abca"
+//output: a character already exist
+
 import java.util.HashSet;
 
 public class CheckUniqueCharacter {
@@ -9,6 +17,7 @@ public class CheckUniqueCharacter {
 		String str = "abcd";
 		checkUnique(str);
 	}
+
 	public static void checkUnique(String str) {
 		HashSet<Character> set = new HashSet<>();
 		boolean isDuplicate = false;

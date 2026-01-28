@@ -1,5 +1,20 @@
 package arrayAndList;
 
+
+//Write a Java program to merge two sorted arrays in-place such that
+//after merging, the first array contains the smaller elements and
+//the second array contains the larger elements, maintaining overall order.
+//input : a = [1, 3, 5]
+//      b = [2, 4, 6]
+//output:
+//      a -> 1 2 3
+//      b -> 4 5 6
+//
+//Note: This approach compares current elements and, when needed, swaps
+//    a[i] with b[j], then "inserts" b[j] into correct position in `b`
+//    by bubbling it forward to keep `b` sorted.
+
+
 public class MergeTwoSortedArray {
 
 	public static void main(String[] args) {

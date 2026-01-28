@@ -1,5 +1,12 @@
 package arrayAndList;
 
+//Write a Java program to rotate an array by k positions to the right.
+//Each rotation moves the last element to the front.
+//input : arr = [1, 2, 3, 4, 5], k = 2
+//After 1st rotation: [5, 1, 2, 3, 4]
+//After 2nd rotation: [4, 5, 1, 2, 3]
+//output: [4, 5, 1, 2, 3]
+
 public class RotateArrayByKPosition {
 
 	public static void main(String[] args) {

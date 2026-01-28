@@ -1,5 +1,14 @@
 package stringManipulation;
 
+//Write a Java program to perform basic string compression.
+//Replace consecutive repeating characters with <character><count>.
+//input : str = "aabcccccaaa"
+//output: a2b1c5a3
+//Explanation:
+//      - Count occurrences of each continuous character sequence
+//      - Append character + count to the result
+//      - Print the final compressed string
+
 public class StringCompression {
 
 	public static void main(String[] args) {
@@ -7,6 +16,7 @@ public class StringCompression {
 		String str = "aabcccccaaa";
 		stringCompression(str);
 	}
+
 	public static void stringCompression(String str) {
 		String res = "";
 		int count = 1;

@@ -1,5 +1,11 @@
 package arrayAndList;
 
+//Write a Java program to find the maximum sum of a contiguous subarray
+//using Kadane's Algorithm.
+//input : int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+//output: 6
+//      (The maximum-sum subarray is [4, -1, 2, 1]
+
 public class MaximumSumSubarray {
 
 	public static void main(String[] args) {

@@ -1,5 +1,14 @@
 package arrayAndList;
 
+//Write a Java program to find the second largest number in an array.
+//The array may contain duplicate values but the second largest should be distinct.
+//input : arr = [12, 35, 1, 10, 34]
+//output: 34
+//Explanation:
+//      - max1 holds the largest number
+//      - max2 holds the second largest number
+//      - Update max2 only when a distinct second largest is found
+
 public class SecondLargetNumber {
 
 	public static void main(String[] args) {

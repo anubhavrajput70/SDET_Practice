@@ -1,5 +1,13 @@
 package stringManipulation;
 
+//Write a Java program to reverse only the characters in a string,
+//while keeping all digits in their original positions.
+//input : str = "abcd123de"
+//steps  : remove digits & replace them with '_' → "abcd___de"
+//       reverse only letters                → "edcba___"
+//       put digits back in original order   → "ed123dcba"
+//output: ed123dcba
+
 import java.util.ArrayList;
 import java.util.List;
 

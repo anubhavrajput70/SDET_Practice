@@ -1,5 +1,13 @@
 package arrayAndList;
 
+//Write a Java program to find the missing number from an array 
+//containing numbers from 1 to n, where exactly one number is missing.
+//input : arr = [1, 2, 4, 5], n = 5
+//output: 3
+//Explanation: The numbers from 1 to 5 should be 1,2,3,4,5
+//           The sum of given array is 12, total sum is 15
+//           Missing number = 15 - 12 =
+
 public class MissingNo1ToN {
 
 	public static void main(String[] args) {

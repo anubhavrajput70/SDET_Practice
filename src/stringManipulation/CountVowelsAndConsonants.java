@@ -1,5 +1,17 @@
 package stringManipulation;
 
+//Write a Java program to count the number of vowels and consonants in a string.
+//Convert the string to lowercase before processing to make comparison easy.
+//input : str = "Automation"
+//output:
+//      Vowels: 6
+//      Consonants: 4
+//Explanation:
+//      - Check each character
+//      - If it is between 'a' and 'z', it is an alphabet
+//      - If it is a, e, i, o, u → vowel
+//      - Otherwise → consonant
+
 public class CountVowelsAndConsonants {
 
 	public static void main(String[] args) {
@@ -19,7 +31,7 @@ public class CountVowelsAndConsonants {
 					consonants++;
 			}
 		}
-		System.out.println("Vowels: "+vowels+"\nConsonants: "+consonants);
+		System.out.println("Vowels: " + vowels + "\nConsonants: " + consonants);
 	}
 
 }

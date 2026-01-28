@@ -1,5 +1,15 @@
 package stringManipulation;
 
+//Write a Java program to check if two strings are anagrams of each other
+//using a frequency map (character -> count).
+//input : s1 = "listen", s2 = "silent"
+//output: anagram
+//Explanation:
+//      - If lengths differ, they cannot be anagrams
+//      - Count frequency of each character in s1
+//      - Decrease counts using characters of s2; remove when count hits 0
+//      - If the map is empty at the end, they are anagrams
+
 import java.util.HashMap;
 
 public class AnagramCheck {
