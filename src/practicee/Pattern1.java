@@ -12,7 +12,7 @@ public class Pattern1 {
 		for (int i = 0; i <= n; i++) {
 			int a = 65;
 			for (int j = 0; j < i; j++) {
-				System.out.print((char) a);
+				System.out.print( (char)a);
 				a++;
 				System.out.print("_");
 			}
