@@ -14,7 +14,6 @@ public class ArrayOfAnagram {
             char[] chars = word.toCharArray();
             Arrays.sort(chars);
             String key = new String(chars);
-
             if (!map.containsKey(key)) {
                 map.put(key, new ArrayList<>());
             }

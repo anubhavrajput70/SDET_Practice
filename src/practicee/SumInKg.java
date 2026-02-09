@@ -1,5 +1,15 @@
 package practicee;
 
+//Write a Java program to sum weights given in"kg"and"gm"format.
+//input  : ["5 kg", "10 kg", "500 gm", "700 gm"]
+//output : 16.2  (5 + 10 + 0.5 + 0.7)
+//
+//Explanation:
+//      - Split each string into numeric value and unit
+//      - If unit is grams, convert to kg by dividing by 1000
+//      - If unit is kg, add directly
+//      - Keep cumulative sum in kilograms
+
 public class SumInKg {
 
 	public static void main(String[] args) {

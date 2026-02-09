@@ -1,5 +1,22 @@
 package practicee;
 
+//
+//Write a Java program to sort only the numeric substrings inside a mixed string.
+//input  : "ab431xy98cd765pq"
+//output : "ab134xy89cd567pq"
+//
+//Explanation:
+//      - Scan the string left to right
+//      - When a digit sequence starts, collect the full run of digits (e.g., "431")
+//      - Sort the digits within that run (→ "134")
+//      - Append the sorted run to result
+//      - Non-digit characters are appended as-is
+//
+//Notes:
+//      - Sorting happens per contiguous numeric group, not across the whole string
+//      - For global digit sorting while keeping digit positions, see the alternative below
+//
+
 import java.util.Arrays;
 
 public class SortOnlyNumber {
