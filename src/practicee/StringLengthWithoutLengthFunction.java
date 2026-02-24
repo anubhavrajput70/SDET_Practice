@@ -19,7 +19,6 @@ public class StringLengthWithoutLengthFunction {
 		// TODO Auto-generated method stub
 		String s = "automation";
 		stringLength(s);
-
 	}
 
 	public static void stringLength(String s) {

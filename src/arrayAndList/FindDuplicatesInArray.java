@@ -18,7 +18,6 @@ public class FindDuplicatesInArray {
 		int[] arr = { 1, 2, 3, 4, 2, 5,3,2,2,2, 1 };
 		findDuplicate(arr);
 	}
-
 	public static void findDuplicate(int arr[]) {
 		HashSet<Integer> set = new HashSet<>();
 		for (int i = 0; i < arr.length; i++) {

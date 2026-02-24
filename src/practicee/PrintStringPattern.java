@@ -14,6 +14,7 @@ public class PrintStringPattern {
 		String cleaned = s.replaceAll("[^a-zA-Z0-9]", "");
 		StringBuilder letters = new StringBuilder();
 		StringBuilder numbers = new StringBuilder();
+		System.out.println(cleaned);
 		for (char ch : cleaned.toCharArray()) {
 			if (Character.isLetter(ch)) {
 				letters.append(ch);
